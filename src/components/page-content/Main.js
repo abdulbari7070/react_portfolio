@@ -14,7 +14,7 @@ const Main = () => {
 
     return (
         <header>
-            <div className="cover bg-light">
+            <div className="cover bg-primary">
                 <div className="container px-3">
                 <div className="row">
                     <div className="col-lg-6 p-2"><img className="img-fluid" data-aos="fade-down" data-aos-delay="2200" src={HelloImg} alt="hello"/></div>
@@ -34,7 +34,7 @@ const Main = () => {
                             </ul>
                         </nav>
                         </div>
-                        <div className="mt-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1800"><a className="btn btn-primary shadow-sm mt-1 hover-effect" href="#contact">Get In Touch <i className="fas fa-arrow-right"></i></a></div>
+                        <div className="mt-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1800"><a className="btn btn-dark shadow-sm mt-1 hover-effect" href="#contact">Get In Touch <i className="fas fa-arrow-right"></i></a></div>
                     </div>
                     </div>
                 </div>
