@@ -331,3 +331,18 @@ footer a:not(.nav-link) {
   width: 150px;
   height: auto;
 }
+
+* { overflow: hidden;}
+#marquee {
+  animation: marquee-scroll 10s linear infinite;
+  margin: 0;
+  padding: 1px;
+}
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-18%);
+  }
+}
